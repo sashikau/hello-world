@@ -21,13 +21,4 @@ public class BankAccount {
     }
 
 //Method deleted
-
-    public void withdrawn(int amount) {
-        if(amount < balance) {
-            balance = balance - amount;
-        }else {
-            System.out.println("You cannot withdraw that much" + amount + " " + balance); 
-        }
-	System.out.println("Method end!"); //Change by Hiran 
-    }
 }
