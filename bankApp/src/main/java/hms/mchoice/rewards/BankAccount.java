@@ -23,7 +23,8 @@ public class BankAccount {
     public void deposit(int amount) {
 
         balance=balance+amount;
+        System.out.println(balance);
     }
 
-   
+
 }
