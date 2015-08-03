@@ -29,7 +29,8 @@ public class BankAccount {
         if(amount < balance) {
             balance = balance - amount;
         }else {
-            System.out.println("You cannot withdraw that much" + amount + " " + balance); //Change by Hiran
+            System.out.println("You cannot withdraw that much" + amount + " " + balance); 
         }
+	System.out.println("Method end!"); //Change by Hiran 
     }
 }
