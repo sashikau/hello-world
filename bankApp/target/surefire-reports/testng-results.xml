@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="hms.mchoice.rewards.BankAccountTest" duration-ms="21" started-at="2015-08-03T04:34:39Z" finished-at="2015-08-03T04:34:39Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="21" started-at="2015-08-03T04:34:39Z" finished-at="2015-08-03T04:34:39Z">
+      <class name="hms.mchoice.rewards.BankAccountTest">
+        <test-method status="PASS" signature="testDeposit()[pri:0, instance:hms.mchoice.rewards.BankAccountTest@770537e4]" name="testDeposit" duration-ms="7" started-at="2015-08-03T10:04:39Z" finished-at="2015-08-03T10:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeposit -->
+        <test-method status="PASS" signature="testGetBalance()[pri:0, instance:hms.mchoice.rewards.BankAccountTest@770537e4]" name="testGetBalance" duration-ms="0" started-at="2015-08-03T10:04:39Z" finished-at="2015-08-03T10:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBalance -->
+        <test-method status="PASS" signature="testWithDrawnNeg()[pri:0, instance:hms.mchoice.rewards.BankAccountTest@770537e4]" name="testWithDrawnNeg" duration-ms="0" started-at="2015-08-03T10:04:39Z" finished-at="2015-08-03T10:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithDrawnNeg -->
+        <test-method status="PASS" signature="testWithdrawn()[pri:0, instance:hms.mchoice.rewards.BankAccountTest@770537e4]" name="testWithdrawn" duration-ms="0" started-at="2015-08-03T10:04:39Z" finished-at="2015-08-03T10:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdrawn -->
+      </class> <!-- hms.mchoice.rewards.BankAccountTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- hms.mchoice.rewards.BankAccountTest -->
+</testng-results>
