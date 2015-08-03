@@ -20,16 +20,18 @@ public class BankAccount {
         return balance;
     }
 
-    public void deposit(int amount) {
+//Method deleted
 
-        balance=balance+amount;
-    }
-
+<<<<<<< HEAD
     public void withdrawn(int amount) {
-        if(amount<balance) {
-            balance = balance -amount;
+        if(amount < balance) {
+            balance = balance - amount;
         }else {
-            System.out.println("You cannot withdraw that much");
+            System.out.println("You cannot withdraw that much" + amount + " " + balance); 
         }
+	System.out.println("Method end!"); //Change by Hiran 
     }
+=======
+   
+>>>>>>> b047cc23f6f393c5e412ef7626f7ee899aa45ab4
 }

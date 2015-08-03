@@ -20,10 +20,19 @@ public class BankAccount {
         return balance;
     }
 
+
     public void deposit(int amount) {
 
         balance=balance+amount;
         System.out.println(balance);
+    }
+
+    public void withdrawn(int amount) {
+        if(amount < balance) {
+            balance = balance - amount;
+        }else {
+            System.out.println("You cannot withdraw that much" + amount + " " + balance);
+        }
     }
 
 
