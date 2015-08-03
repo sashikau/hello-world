@@ -6,9 +6,9 @@ package hms.mchoice.rewards;
 public class BankAccount {
     private int balance;
 
-    public BankAccount(int i) {
+    public BankAccount(int amount) {
 
-        balance=i;
+        balance=amount;
     }
 
     public BankAccount() {
@@ -20,14 +20,14 @@ public class BankAccount {
         return balance;
     }
 
-    public void deposit(int i) {
+    public void deposit(int amount) {
 
-        balance=balance+i;
+        balance=balance+amount;
     }
 
-    public void withdrawn(int i) {
-        if(i<balance) {
-            balance = balance - i;
+    public void withdrawn(int amount) {
+        if(amount<balance) {
+            balance = balance -amount;
         }else {
             System.out.println("You cannot withdraw that much");
         }
