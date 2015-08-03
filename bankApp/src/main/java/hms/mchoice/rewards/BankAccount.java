@@ -20,10 +20,7 @@ public class BankAccount {
         return balance;
     }
 
-    public void deposit(int amount) {
-
-        balance=balance+amount;
-    }
+//Method deleted
 
     public void withdrawn(int amount) {
         if(amount < balance) {
