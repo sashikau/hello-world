@@ -1,5 +1,5 @@
 #ignoring all the files under these extensions
-*.iml
+bankApp/*.iml
 *.gif
 *.png
 
