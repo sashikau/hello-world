@@ -1,6 +1,7 @@
 # hello-world
 First repository
 
+<<<<<<< HEAD
 bankApp is a small java project which can perform deposit and withdraw transactions
 
 *Requiremnets*
@@ -11,3 +12,8 @@ apache-maven 3.3.3
 Use testng and surefire plug-in to evaluate test cases and generate test report
 
 
+=======
+Here you can find java files for myclass and helloworld.
+
+bankApp is a small java project to do simple operation like, deposite and withdraw
+>>>>>>> d6baedf7aae16f3eafb5b4545db37b29dd9541fd
