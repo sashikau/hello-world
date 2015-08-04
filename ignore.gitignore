@@ -1,0 +1,5 @@
+#ignoring all the files under these extensions
+*.iml
+*.gif
+*.png
+
